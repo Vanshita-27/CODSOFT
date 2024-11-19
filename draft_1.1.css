@@ -1,0 +1,322 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:#cefdf8 ;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:#e7fffd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    color:#1b635a;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    
+    /* background-color: #1e6e64;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0px; */
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
+    /* transition: transform 0.4s ease-in-out, box-shadow 0.4s; */
+}
+
+/* About Section */
+#about {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #d3fcf8;
+   
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-container img {
+    border-radius: 50%;
+    width: 150px;
+    margin-right: 20px;
+    /* transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+    transform: translateY(-10px) rotateY(10deg) rotateX(5deg); /* 3D effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+
+.about-text h2 {
+    font-size: 2em;
+    color: #1e6e64;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px;
+    text-align: center;
+    background-color: #97c7c3;
+}
+
+.skills-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills-list li {
+    background-color: #1e6e64;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s;
+}
+.skills-list li:hover {
+    transform: rotate(0deg) scale(1.2);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    color: #1e6e64;
+}
+
+/* Resume Section */
+#resume {
+    padding: 50px;
+    text-align: center;
+    background-color: #d3fcf8;
+}
+
+#resume .btn {
+    background-color: #1e6e64;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #97c7c3;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #1e6e64;
+    color: #fff;
+}
+
+footer .social-links a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Certificates Section */
+#certificates {
+    padding: 50px;
+    background-color:  #d3fcf8;
+}
+
+.certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.certificate {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.certificate h3 {
+    color: #1e6e64;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.certificate p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.certificate a {
+    /* text-decoration: none;
+    color: #1e6e64;
+    font-weight: bold;
+
+    border: #333;
+    box-shadow: 0 35px 70px #7fd1c8;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s; */
+
+    background-color: #1e6e64;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s;
+
+    /* transform: rotate(0deg) scale(0.5);
+    box-shadow: 0 35px 70px #1e6e64; */
+
+}
+.certificate a:hover {
+    transform: rotate(0deg) scale(1.2);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+/* Styles for the skills image */
+.skills-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Graph container and skill bars */
+.skills-graph {
+    margin-top: 30px;
+}
+
+.graph-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.bar {
+    height: 20px;
+    border-radius: 25px;
+    color: #fff;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 20px;
+}
+
+.frontend {
+    background-color: #6c5ce7; /* Frontend bar color */
+}
+
+.backend {
+    background-color: #74b9ff; /* Backend bar color */
+}
+
+/* Fade-in animation for page load */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  body {
+    animation: fadeIn 1s ease;
+  }
+  
+
+  /* Hidden by default, then becomes visible on scroll */
+/* .about-container, .skills-list, .skills-image, .skills-graph, .project, .certificates-container, #resume, #contact {
+    opacity: 100;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+} */
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Skill bar animation */
+.skill-bar .bar {
+    width: 0;
+    height: 20px;
+    background-color: #3498db;
+    transition: width 1.2s ease-in-out;
+}
+
+.skill-bar .bar.filled {
+    width: 100%; /* Adjust width to the percentage set inline in your HTML */
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.social-links i {
+    margin-right: 5px;
+}
+
+.social-links a:hover {
+    color: #0077b5; /* LinkedIn color as an example */
+}
+
